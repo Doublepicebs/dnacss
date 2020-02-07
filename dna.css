@@ -103,7 +103,7 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 }
 
 .dna-shadow {
-  box-shadow: 0.01rem 0.1rem 0.5rem #E0E0E0;
+  box-shadow: 0 4px 8px 0 #E0E0E0;
 }
 
 .dna-body-dark .dna-shadow, .dna-body-black .dna-shadow {
