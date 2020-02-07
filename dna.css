@@ -21,7 +21,7 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 
 .dna-body-dark {
   color: #fafafa;
-  background-color: #424242;
+  background-color: #212121;
 }
 
 .dna-body-black {
@@ -30,7 +30,7 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 }
 
 .dna-main {
-  padding: 2.5px;
+  padding: 0.5rem;
 }
 
 /*Navbar*/
@@ -71,7 +71,7 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 }
 
 .dna-nav-dark {
-  background-color: #212121
+  background-color: #424242;
 }
 
 /*images*/
@@ -102,10 +102,18 @@ DNA CSS BY ©2020 DOUBLEPICEBS
   border-radius: 10px;
 }
 
+.dna-shadow {
+  box-shadow: 0.01rem 0.1rem 0.5rem #E0E0E0;
+}
+
+.dna-body-dark .dna-shadow, .dna-body-black .dna-shadow {
+  box-shadow: 0.01rem 0.1rem 0.5rem #212121;
+}
+
 /*link and input*/
 .dna-body-dark .dna-link,
 .dna-body-black .dna-link {
-  background: linear-gradient(90deg, #53a7ea, aliceblue);
+  background: linear-gradient(90deg, #2979ff, #53a7ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration-color: #2979ff;
@@ -114,7 +122,16 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 }
 
 .dna-link {
-  background: linear-gradient(90deg, #2979ff, aliceblue);
+  background: linear-gradient(90deg, #2979ff, #53a7ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration-color: #2979ff;
+  outline: none;
+  font-weight: normal;
+}
+
+.dna-link-white {
+  background: linear-gradient(90deg, #EEEEEE, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration-color: #2979ff;
@@ -143,6 +160,10 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 }
 
 /*buttons*/
+
+a.dna-btn {
+  text-decoration: none;
+}
 
 .dna-btn {
   outline: none;
@@ -265,11 +286,11 @@ input:checked+.dna-slider:before {
 }
 
 .dna-footer-dark {
-  background-color: #212121;
+  background-color: #424242;
   color: white;
 }
 
-/*code EXPERIMENTAL*/
+/*code*/
 .dna-body-light .dna-code-block {
   margin: 0.3rem;
   padding: 0.6rem;
@@ -286,6 +307,35 @@ input:checked+.dna-slider:before {
   overflow: scroll;
   letter-spacing: 0.02rem;
   font-family: monospace !important;
+}
+
+/*alert*/
+
+.dna-alert{
+  color: #212121;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dna-alert-primary {
+  color: #2979ff;
+  background-color: aliceblue;
+}
+
+.dna-alert-danger {
+  color: red;
+  background-color: #ffd6d6;
+}
+
+.dna-alert-success {
+  color: green;
+  background-color: #daffd6;
+}
+
+.dna-alert-default {
+  color: #212121;
+  background-color: #E0E0E0;
 }
 
 /*Responsive grid*/
@@ -314,7 +364,6 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  color: #fafafa;
   line-height: 1.5;
 }
 
