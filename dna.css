@@ -149,6 +149,10 @@ DNA CSS BY ©2020 DOUBLEPICEBS
   font-weight: normal;
 }
 
+.dna-list {
+  list-style: none;
+}
+
 /*float*/
 
 .dna-float-right {
@@ -167,6 +171,17 @@ a.dna-btn {
 
 .dna-btn {
   outline: none;
+}
+
+.dna-btn-primary {
+  color: white;
+  background-color: #2979ff;
+}
+
+.dna-btn-outline-primary {
+  color: #2979ff;
+  border: solid #2979ff;
+  background-color: transparent;
 }
 
 .dna-btn-shadow-primary {
