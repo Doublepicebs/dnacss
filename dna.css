@@ -72,6 +72,7 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 
 .dna-nav-dark {
   background-color: #424242;
+  color: white;
 }
 
 /*images*/
@@ -103,7 +104,7 @@ DNA CSS BY ©2020 DOUBLEPICEBS
 }
 
 .dna-shadow {
-  box-shadow: 0 4px 8px 0 #E0E0E0;
+  box-shadow: 0 4px 8px 0 lightgray;
 }
 
 .dna-body-dark .dna-shadow, .dna-body-black .dna-shadow {
@@ -204,10 +205,12 @@ a.dna-btn {
 .dna-title {
   text-transform: uppercase;
   font-weight: bolder;
+  letter-spacing: 0.1rem;
 }
 
 .dna-subtitle {
   font-weight: normal;
+  letter-spacing: 0.05rem
 }
 
 /*divider*/
@@ -301,7 +304,7 @@ input:checked+.dna-slider:before {
 }
 
 .dna-footer-dark {
-  background-color: #424242;
+  background-color: #212121;
   color: white;
 }
 
